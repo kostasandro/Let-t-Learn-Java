@@ -1,6 +1,5 @@
 ## Let's Learn Java
-
-This is and PHP application for learning Java programming language.
+This is a PHP application for learning Java programming language.
 ## Files
 In folder letsLearnJava you can find the code of the application.
 you will need an wamp server in order to run application locally.
