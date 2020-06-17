@@ -1,0 +1,162 @@
+.clearfix {
+    overflow: auto;
+    clear: both;
+}
+
+body {
+    /*background: url("../images/background.jpg") no-repeat center;*/
+    /* background-color: #282828 !important;
+    color:lightgray!important; */
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+h2 {
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+
+.page {
+    /*background: white;*/
+    padding: 10px 20px !important;
+    margin: 10px;
+    text-align: justify;
+}
+
+.second-menu {
+    margin-top: 10px;
+    ;
+    border-bottom: 1px solid lightgray;
+}
+
+.second-menu h1 {
+    margin-left: 10px;
+}
+
+.header {
+    text-align: center;
+    /*color: white;*/
+    /*border:1px solid black;*/
+}
+
+a,
+a:hover,
+a:link,
+a:active,
+a:focus {
+    color: crimson !important;
+    text-decoration: none !important;
+}
+
+.logo .sub {
+    font-style: italic;
+}
+
+.navbar {
+    border-top: 1px solid lightGray;
+    border-bottom: 1px solid lightGray;
+    margin-top: 10px;
+}
+
+.nav-link.disabled {
+    color: darkgray !important;
+}
+
+.footer {
+    font-size: 80%;
+    border-top: 1px solid lightGray;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+.footer .container {
+    padding: 10px 0;
+}
+
+.footer .logo {
+    width: inherit;
+}
+
+.footer .copyright {
+    background-color: #282828;
+    color: lightgray !important;
+}
+
+.footer .copyright p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.message {
+    padding: 6px 12px;
+}
+
+.error {
+    color: crimson;
+    font-size: 80%;
+}
+
+.user {
+    padding-top: 5px !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+file {
+    font-size: 87.5%;
+    word-break: break-word;
+    background-color: lightgray;
+    color: #303030;
+    padding: 2px;
+    border-radius: 2px;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.exercises_nav {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+
+xmp{
+    border: 1px solid gray;
+    padding: 0 10px 18px 10px;
+}
+
+.success_points{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.total_points{
+    font-size: 2rem;
+}
+
+.points{
+    border: 3px double #dee2e6;
+    margin:10px;
+    padding: 10px;
+}
+
+.carousel-caption{
+    color: crimson !important;
+    background-color: white;
+    border: 3px double crimson;
+}
+.carousel-caption h5{
+    color: black !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
